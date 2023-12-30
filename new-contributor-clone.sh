@@ -22,3 +22,6 @@ echo "Welcome to the SPP-Technologies open source community, $name!" >> $feature
 git add .
 git commit -m "Initial commit by $name for feature: $feature"
 git push -u origin "$feature.$name"
+
+# Run the vscode 
+code .

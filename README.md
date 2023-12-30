@@ -39,6 +39,9 @@ git add .
 git commit -m "Initial commit by $name for feature: $feature"
 git push -u origin "$feature.$name"
 
+#Run the vscode
+code .
+
 ```
 
 ### For Windows Users:
@@ -75,3 +78,6 @@ with open(f"new_feature_{name}.README.md", "a") as readme:
 subprocess.run(["git", "add", "."])
 subprocess.run(["git", "commit", "-m", f"Initial commit by {name} for feature: {feature}"])
 subprocess.run(["git", "push", "-u", "origin", f"feature_contribution_{name}"])
+
+#Run the vscode
+subprocess.run(["code", "."])
